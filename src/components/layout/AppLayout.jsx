@@ -94,6 +94,7 @@ const AppLayout = () => (WrappedComponent) => {
         <Title />
         <Header />
 
+
         <DeleteChatMenu
           dispatch={dispatch}
           deleteMenuAnchor={deleteMenuAnchor}

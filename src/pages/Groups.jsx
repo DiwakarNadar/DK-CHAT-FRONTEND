@@ -385,7 +385,7 @@ const GroupsList = ({ w = "100%", myGroups = [], chatId }) => (
   <Stack
     width={w}
     sx={{
-      backgroundImage: bgGradient,
+      backgroundImage: "linear-gradient(90deg, #4b6cb7 0%, #182848 100%)",
       height: "100vh",
       overflow: "auto",
     }}

@@ -113,7 +113,7 @@ const Login = () => {
   return (
     <div
       style={{
-        backgroundImage: bgGradient,
+       background:"linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%)",
       }}
     >
       <Container
@@ -169,6 +169,7 @@ const Login = () => {
                 <Button
                   sx={{
                     marginTop: "1rem",
+                    background: "linear-gradient(90deg, #1CB5E0 0%, #000851 100%)",
                   }}
                   variant="contained"
                   color="primary"

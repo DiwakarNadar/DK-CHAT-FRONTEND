@@ -78,8 +78,7 @@ const Header = () => {
         <AppBar
           position="static"
           sx={{
-            bgcolor: orange,
-          }}
+            background:"linear-gradient(90deg, #1CB5E0 0%, #000851 100%)" }}
         >
           <Toolbar>
             <Typography
@@ -88,7 +87,7 @@ const Header = () => {
                 display: { xs: "none", sm: "block" },
               }}
             >
-              Chattu
+              DK-CHAT
             </Typography>
 
             <Box

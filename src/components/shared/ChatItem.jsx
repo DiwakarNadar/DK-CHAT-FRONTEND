@@ -19,6 +19,8 @@ const ChatItem = ({
     <Link
       sx={{
         padding: "0",
+        marginTop: "0.05rem",
+        
       }}
       to={`/chat/${_id}`}
       onContextMenu={(e) => handleDeleteChat(e, _id, groupChat)}
@@ -31,12 +33,13 @@ const ChatItem = ({
           display: "flex",
           gap: "1rem",
           alignItems: "center",
-          backgroundColor: sameSender ? "black" : "unset",
+          backgroundImage: sameSender ? "linear-gradient(90deg, #4b6cb7 0%, #182848 100%)" : "unset",
           color: sameSender ? "white" : "unset",
           position: "relative",
           padding: "1rem",
         }}
       >
+      
         <AvatarCard avatar={avatar} />
 
         <Stack>
@@ -63,6 +66,7 @@ const ChatItem = ({
       </motion.div>
     </Link>
   );
+ 
 };
 
 export default memo(ChatItem);
